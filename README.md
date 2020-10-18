@@ -15,15 +15,15 @@ $ docker exec -it pg psql -U postgres
 
 a) Assuming you are using Dbeaver as well, you can connect to the database using the following settings:
 
-Host: localhost
+- Host: localhost
 
-Port: 5432
+- Port: 5432
 
-Database: postgres
+- Database: postgres
 
-Username: postgres
+- Username: postgres
 
-Password: secret
+- Password: secret
 
 
 b) Alternatively, if you are not using DBeaver or any application to set up the connection, you can access the database using the following code in Anaconda/command prompt:
