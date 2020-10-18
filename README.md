@@ -5,7 +5,7 @@
 
 $ docker pull postgres
 
-$ Docker container run -d –name=pg 5432:5432 -e POSTGRES_PASSWORD=secret -e PGDATA=/pgdata -v /pgdata:/pgdata postgres
+$ docker container run -d --name=pg -p 5432:5432 -e POSTGRES_PASSWORD=secret -e PGDATA=/pgdata -v /pgdata:/pgdata postgres
 
 $ docker exec -it pg psql -U postgres
 
