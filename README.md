@@ -1,7 +1,7 @@
 # Govtech-Assessment-Section2
 
 
-## 1) Code for Setting up Database using Docker in Anaconda Prompt in Windows 10
+### 1) Code for Setting up Database using Docker in Anaconda Prompt in Windows 10
 
 $ docker pull postgres
 
@@ -11,7 +11,7 @@ $ docker exec -it pg psql -U postgres
 
 
 
-## 2) Data definition language (DDL) statements using SQL query language in Dbeaver
+### 2) Data definition language (DDL) statements using SQL query language in Dbeaver
 
 a) Assuming you are using Dbeaver as well, you can connect to the database using the following settings:
 
@@ -46,6 +46,6 @@ SQL Query can be found in Section2.sql, in summary:
 -third data consist of salesperson data which also include name and phone number of customers that the salesperson have transaction with
 
 
-## 3) ERD 
+### 3) ERD 
 
 -ERD can be found in Section 2 ERD.pdf
