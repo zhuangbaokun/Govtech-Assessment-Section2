@@ -1,6 +1,7 @@
 # Govtech-Assessment-Section2
 
 ## 1) Code for Setting up Database using Docker in Anaconda Prompt in Windows 10
+
 docker pull postgres
 
 docker run --name db -e POSTGRES_PASSWORD=baokun -d postgres
@@ -8,6 +9,11 @@ docker run --name db -e POSTGRES_PASSWORD=baokun -d postgres
 docker ps
 
 docker exec -it db psql -U postgres
+
+CREATE DATABASE db;
+
+\c db
+
 
 ## 2) Data definition language (DDL) statements using SQL query language
 
